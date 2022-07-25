@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1 id="title">Tu experiencia y gustos en McDonalds</h1>
+        <p id="description">Gracias por tomarse el tiempo de contarnos tus gustos de McDonalds.</p>
+
+        <div id="container">
+            <form id="survey-form" action="">
+
+                <label id="name-label" for="">Nombre</label>
+                <br>
+                <input id="name" type="text" required placeholder="Ingresa tu Nombre">
+
+                <br> <br>
+
+                <label id="email-label" for="">Email</label>
+                <br>
+                <input id="email" type="email" required placeholder="Ingresa tu Email">
+
+                <br><br>
+
+                <label id="number-label" for="">Edad (Opcional)</label>
+                <br>
+                <input id="number" type="number" min="1" max="100" placeholder="Edad">
+
+                <br><br>
+
+                <label id="comida-label" for="">Cual es tu comida favorita de Mc Donalds?</label>
+                <br>
+                <select name="" id="dropdown" required> 
+
+                    <option value="Big Mac">Big Mac</option>
+                    <option value="Chicken McNuggets">Chicken McNuggets</option>
+                    <option value="Spicy Crispy Chicken Sandwich">Spicy Crispy Chicken Sandwich</option>
+                    <option value="Papas">Papas</option>
+                    <option value="Quarter Pounder">Quarter Pounder</option>
+                    <option value="Egg McMuffin">Egg McMuffin</option>
+                    <option value="Sausage Burrito">Sausage Burrito</option>
+
+                </select>
+
+                <br><br>
+
+                <label id="radio-label" for=""> <b>Que posibilidad hay que recomiendes McDonalds a tus amigos?</b></label>
+                <br><br>
+                <label class="opciones">
+                <input class="tamano" value="valor" name="radio" type="radio">  Mucha
+                <br><br>
+                <input class="tamano" value="valor" name="radio" type="radio"><label class="opciones">  Poca
+                <br><br>
+                <input class="tamano" value="valor" name="radio" type="radio"><label class="opciones">  Ninguna
+                </label>
+                <br><br>
+
+                <label id="cuadrado-label" for="">Normalmente cuantas personas vienen junto a ti a McDonalds?</label>
+                <br><br>
+                <input value="valor" class="tamano" type="checkbox"><label class="opciones">  Ninguna</label>
+                <br><br>
+                <input value="valor" class="tamano" type="checkbox"><label class="opciones">  Una persona</label>
+                <br><br>
+                <input value="valor" class="tamano" type="checkbox"><label class="opciones">  Dos personas</label>
+                <br><br>
+                <input value="valor" class="tamano" type="checkbox"><label class="opciones">  Tres personas</label>
+                <br><br>
+
+                <label id="caja-label" for="">Cuentanos tu experiencia y danos sugerencias (Opcional):</label>
+                <br><br>
+                <textarea name="Comentarios" id="comentarios" cols="85" rows="10"></textarea>
+                <br><br>
+                <input id="submit" type="submit">
+
+            </form>
+        </div>
+    </body>
+</html>
